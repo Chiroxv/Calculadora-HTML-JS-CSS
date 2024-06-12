@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #444; /* Fondo negro grisáceo */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 50px 20px 20px; /* Espaciado en la parte superior, 50px a la izquierda y derecha, 20px en la parte inferior */
+    display: flex; /* Usamos flexbox para alinear los elementos verticalmente */
+    flex-direction: column; /* Alinear los elementos en una columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    justify-content: flex-start; /* Alinear los elementos al principio verticalmente */
+    min-height: 100vh; /* Altura mínima del cuerpo */
+    box-sizing: border-box; /* Hacer que el padding se incluya en el tamaño total del cuerpo */
+}
+
+h1 {
+    color: #4CAF50; /* Color verde */
+    margin-bottom: 20px;
+}
+
+/* Estilos para los inputs y el botón */
+input[type="text"], input[type="submit"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #666; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    display: block; /* Mostrar los elementos en bloques para que estén en vertical */
+}
+
+input[type="submit"] {
+    width: auto; /* Ajustar automáticamente el ancho del botón según el contenido */
+    cursor: pointer;
+    background-color: #4CAF50; /* Botón verde */
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos para el resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+}
